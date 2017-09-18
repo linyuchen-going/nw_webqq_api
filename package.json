@@ -1,0 +1,33 @@
+{
+  "name": "nw_webqq",
+  "main": "build/index.html",
+  "bg-script": "build/index.js",
+  "webkit": {
+    "plugin": true
+  },
+  "chromium-args": "--mixed-context",
+  "scripts": {
+    "test": "webpack",
+    "build": "webpack -p"
+  },
+  "window": {
+    "toolbar": true,
+    "width": 1366,
+    "height": 768
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "fs": "0.0.1-security",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  }
+}
