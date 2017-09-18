@@ -2,6 +2,8 @@
 
 NW.js(NodeWebkit)封装的WebQQApi
 
+已经打包好的exe下载<https://pan.baidu.com/s/1gfMnmVp>
+
 ======================
 
 ## 编译
